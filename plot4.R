@@ -43,7 +43,7 @@ with(mydata, {
     
     plot(DateTime, Voltage, 
          type = "n", 
-         main = NULL, xlab = "", ylab = "Voltage" )
+         main = NULL, xlab = "datetime", ylab = "Voltage" )
     lines(DateTime, Voltage)
     
     plot(DateTime, Sub_metering_1, 
@@ -58,7 +58,7 @@ with(mydata, {
     
     plot(DateTime, Global_reactive_power, 
          type = "n", 
-         main = NULL, xlab = "", ylab = "Global Active Power" )
+         main = NULL, xlab = "datetime", ylab = "Global_reactive_power" )
     lines(DateTime, Global_reactive_power)
 })
 dev.off()
